@@ -1,7 +1,7 @@
 # Mini-Project---PowerPredict
-# ⚡ Wattwise — Smart Electricity Bill Predictor
+# ⚡ PowerPredict — Smart Electricity Bill Predictor
 
-AI-powered electricity bill prediction for Indian households. Built with FastAPI, React, and a Random Forest model trained on 5,000 realistic consumption records.
+ML-based electricity bill prediction for Indian households. Built with FastAPI, React, and a Random Forest model trained on 5,000 realistic consumption records.
 
 ---
 
@@ -157,11 +157,14 @@ curl -X POST http://localhost:8000/api/predict \
 | HTTP Client | Axios with interceptors |
 
 ---
+## Team Members
+-Minhaj Ahmed Sheikh
+-Mohammed Furqan Shaikh
+-Mo. Fazil Ahmed Ghori
 
-## 🚢 Production Notes
+## Screenshots
+<img width="1915" height="966" alt="Screenshot 2026-04-26 184628" src="https://github.com/user-attachments/assets/32c3e846-5959-48d4-9c68-c2c277b4a435" />
+<img width="1902" height="913" alt="Screenshot 2026-04-29 123321" src="https://github.com/user-attachments/assets/36ceae4d-4408-4453-b934-24c55b04223e" />
+<img width="1898" height="907" alt="Screenshot 2026-04-29 123455" src="https://github.com/user-attachments/assets/1db0ff33-a1ba-49d8-9fe3-6d916bc9dd99" />
 
-1. Change `SECRET_KEY` in `auth.py` to a long random string
-2. Switch `DATABASE_URL` in `database.py` to PostgreSQL
-3. Set `allow_origins` in `main.py` to your frontend domain
-4. Run `npm run build` for the frontend and serve via Nginx/Caddy
-5. Use `gunicorn` or Railway/Render for the FastAPI backend
+
