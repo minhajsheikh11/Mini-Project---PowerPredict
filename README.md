@@ -157,10 +157,6 @@ curl -X POST http://localhost:8000/api/predict \
 | HTTP Client | Axios with interceptors |
 
 ---
-## Team Members
--Minhaj Ahmed Sheikh [EN23CS301616]
--Mohammed Furqan Shaikh [EN23CS301626]
--Mo. Fazil Ahmed Ghori [EN23CS301618]
 
 ## Screenshots
 <img width="1915" height="966" alt="Screenshot 2026-04-26 184628" src="https://github.com/user-attachments/assets/32c3e846-5959-48d4-9c68-c2c277b4a435" />
